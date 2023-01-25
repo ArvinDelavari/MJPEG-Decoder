@@ -4,7 +4,6 @@
 #define READ_BUFFER_SIZE 1024
 #define MAXOUTPUTSIZE (MAX_BUFFERED_PIXELS / 16 / 16)
 
-/* Wio Terminal */
 #if defined(ARDUINO_ARCH_SAMD) && defined(SEEED_GROVE_UI_WIRELESS)
 #include <Seeed_FS.h>
 #elif defined(ESP32) || defined(ESP8266)
